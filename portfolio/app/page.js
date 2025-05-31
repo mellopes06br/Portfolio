@@ -2,7 +2,10 @@
 
 import React from "react";
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaRegUserCircle } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaRegUserCircle, FaGamepad, FaComputer } from "react-icons/fa";
+import { HiOutlineAcademicCap } from "react-icons/hi";
+import { MdComputer } from "react-icons/md";
+
 
 export default function Home() {
   return (
@@ -54,12 +57,35 @@ export default function Home() {
              <a
               href="./sobre"
               className="group flex items-center justify-center w-full sm:w-12 h-12 rounded-full bg-violet-900 hover:bg-violet-600 transition-all duration-300 shadow-md transform hover:-translate-y-1"
-              aria-label="Perfil GitHub de Mel Lopes"
+              aria-label="Página Sobre Mim"
             >
               <FaRegUserCircle size={24} className="text-purple-300 group-hover:text-white" />
             </a>
 
+            <a
+              href="./academia"
+              className="group flex items-center justify-center w-full sm:w-12 h-12 rounded-full bg-violet-900 hover:bg-violet-600 transition-all duration-300 shadow-md transform hover:-translate-y-1"
+              aria-label="Página sobre vida acadêmica"
+            >
+              <HiOutlineAcademicCap size={24} className="text-purple-300 group-hover:text-white" />
+            </a>
             
+            <a
+              href="./jogo"
+              className="group flex items-center justify-center w-full sm:w-12 h-12 rounded-full bg-violet-900 hover:bg-violet-600 transition-all duration-300 shadow-md transform hover:-translate-y-1"
+              aria-label="Página do Jogo"
+            >
+              <FaGamepad size={24} className="text-purple-300 group-hover:text-white" />
+            </a>
+
+            <a
+              href="./projetos"
+              className="group flex items-center justify-center w-full sm:w-12 h-12 rounded-full bg-violet-900 hover:bg-violet-600 transition-all duration-300 shadow-md transform hover:-translate-y-1"
+              aria-label="Página dos Projetos"
+            >
+              <MdComputer size={24} className="text-purple-300 group-hover:text-white" />
+            </a>
+
           </div>
         </div>
       </div>
