@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mt-4 w-full sm:w-auto">
     
             <a
-              href="https://www.linkedin.com/in/mellopes" 
+              href="https://www.linkedin.com/in/mel-lopes?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center w-full sm:w-12 h-12 rounded-full bg-violet-900 hover:bg-violet-600 transition-all duration-300 shadow-md transform hover:-translate-y-1"
@@ -45,7 +45,7 @@ export default function Home() {
               <FaLinkedin size={24} className="text-purple-300 group-hover:text-white" />
             </a>
             <a
-              href="https://github.com/mellopes" 
+              href="https://github.com/mellopes06br" 
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center w-full sm:w-12 h-12 rounded-full bg-violet-900 hover:bg-violet-600 transition-all duration-300 shadow-md transform hover:-translate-y-1"
